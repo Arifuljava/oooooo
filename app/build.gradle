@@ -42,6 +42,13 @@ android {
 }
 
 dependencies {
+    implementation 'com.github.DantSu:ESCPOS-ThermalPrinter-Android:3.3.0'
+    implementation 'com.github.harry1453:android-bluetooth-serial:v1.1'
+
+    // RxJava is also required.
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.12'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.2'
+
     implementation 'com.google.firebase:firebase-core:20.1.0'
     implementation 'com.google.firebase:firebase-auth:21.0.1'
     implementation 'com.google.firebase:firebase-firestore:17.1.2'
