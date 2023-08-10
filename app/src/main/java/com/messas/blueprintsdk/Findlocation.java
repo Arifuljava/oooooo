@@ -210,16 +210,7 @@ public class Findlocation extends AppCompatActivity {
             String deviceAddress = device.getAddress();
 
             // Check if the device's MAC address is already added to the list
-            BluetoothAdapter bluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-            if (bluetoothAdapter != null) {
-                bluetoothName = bluetoothAdapter.getName();
 
-
-                // Use the Bluetooth name as needed
-            } else {
-                // Bluetooth is not supported on this device
-                bluetoothName= "unknown";
-            }
 
 
             TextView deviceNameTextView = view.findViewById(R.id.listedd);
